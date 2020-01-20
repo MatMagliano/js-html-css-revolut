@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERALI */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.list-style {
+  list-style: none;
+}
+.list-style li {
+  display: inline;
+
+}
+.list-style li a {
+  text-decoration: none;
+  padding-right: 20px;
+  color: #bcbdbd;
+}
+.list-style li a:hover {
+  color: #363636;
+}
+.angle-none {
+  display: none;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+/* FLOAT-LEFT */
+.logo-box {
+  height: 80px;
+  line-height: 80px;
+}
+.logo {
+  width: 100px;
+  vertical-align: text-bottom;
+}
+
+/* FLOAT-RIGHT */
+.list-box {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+.button {
+  padding: 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  background: #e70190;
+  color: #fff;
+}
+.button:hover {
+  background: #dd188f;
+}
