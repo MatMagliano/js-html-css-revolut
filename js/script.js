@@ -7,10 +7,10 @@ $(document).ready(
         $(this).next('.drop').addClass('active');
       }
     );
-    // $('.relative > a').mouseleave(
-    //   function() {
-    //     $(this).next('.drop').removeClass('active');
-    //   }
-    // );
+    $('.relative > a').mouseleave(
+      function() {
+        $(this).next('.drop').removeClass('active');
+      }
+    );
   }
 );

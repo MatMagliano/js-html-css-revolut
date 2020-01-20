@@ -80,8 +80,7 @@ body {
 .absolute {
   position: absolute;
 }
-.accounts,
-.company {
+.accounts {
   left: -20%;
   top: 180%;
   padding: 20px;
@@ -89,12 +88,43 @@ body {
   box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.11);
 }
 .products {
-  left: -20%;
+  left: -140%;
   top: 180%;
-  padding: 100px;
+  width: 300px;
+  padding: 30px;
   background-color: #fff;
   box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.11);
 }
+.company {
+  left: -80%;
+  top: 180%;
+  width: 200px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.11);
+}
+.help {
+  left: -120%;
+  top: 180%;
+  width: 200px;
+  padding: 30px 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.11);
+}
+.languages {
+  left: -110%;
+  top: 180%;
+
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.11);
+}
+.products li,
+.company li,
+.help li,
+.languages li  {
+  display: block;
+}
 .drop li a {
-  line-height: 40px;
+  line-height: 60px;
 }
