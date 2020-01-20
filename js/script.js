@@ -4,8 +4,13 @@ $(document).ready(
   function() {
     $('.relative > a').mouseenter(
       function() {
-        $(this).next('.accounts').addClass('flex');
+        $(this).next('.drop').addClass('active');
       }
-    )
+    );
+    // $('.relative > a').mouseleave(
+    //   function() {
+    //     $(this).next('.drop').removeClass('active');
+    //   }
+    // );
   }
 );

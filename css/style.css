@@ -44,8 +44,8 @@ body {
 .none {
   display: none;
 }
-.flex {
-  display: flex;
+.active {
+  display: block;
 }
 
 /* FLOAT-LEFT */
@@ -80,13 +80,21 @@ body {
 .absolute {
   position: absolute;
 }
-.accounts {
+.accounts,
+.company {
   left: -20%;
   top: 180%;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.11);
 }
-.accounts li a {
+.products {
+  left: -20%;
+  top: 180%;
+  padding: 100px;
+  background-color: #fff;
+  box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.11);
+}
+.drop li a {
   line-height: 40px;
 }
