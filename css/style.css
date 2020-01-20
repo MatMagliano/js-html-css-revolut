@@ -41,6 +41,12 @@ body {
   width: 80%;
   margin: auto;
 }
+.none {
+  display: none;
+}
+.flex {
+  display: flex;
+}
 
 /* FLOAT-LEFT */
 .logo-box {
@@ -67,4 +73,20 @@ body {
 }
 .button:hover {
   background: #dd188f;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.accounts {
+  left: -20%;
+  top: 180%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.11);
+}
+.accounts li a {
+  line-height: 40px;
 }
