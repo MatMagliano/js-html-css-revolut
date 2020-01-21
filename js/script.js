@@ -4,13 +4,13 @@ $(document).ready(
   function() {
     $('.relative > a').mouseenter(
       function() {
+        $('.drop').removeClass('active');
         $(this).next('.drop').addClass('active');
       }
     );
-    $('.relative > a').mouseleave(
-      function() {
-        $(this).next('.drop').removeClass('active');
-      }
-    );
-  }
-);
+
+    $('main').click(function () {
+    $('.drop').removeClass('active');
+  });
+
+  });

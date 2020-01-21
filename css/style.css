@@ -8,6 +8,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
 .clearfix {
   content: '';
   display: table;
@@ -33,9 +38,6 @@ body {
 }
 .list-style li a:hover {
   color: #363636;
-}
-.angle-none {
-  display: none;
 }
 .wrapper {
   width: 80%;
